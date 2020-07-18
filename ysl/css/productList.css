@@ -1,0 +1,41 @@
+/* 主页版心 */
+.cont-main{
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.bannerBox{
+    margin: 0 auto;
+    width: 1320px;
+    height: 445px;
+}
+.boxImg img{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+/* 内容 */
+.cont-main{
+    min-height: 210px;
+}
+.left-nav-tit{
+    border-bottom: 1px solid #e6e5e5;
+    margin-bottom: 20px;
+}
+.left-nav-tit>h3{
+    width: 198px;
+    height: 75px;
+    display: block;
+    font-size: 32px;
+}
+.left-nav-lit{
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+.lite-box>li>a{
+    color: #999999;
+    display: block;
+    margin-bottom: 16px;
+    font-size: 14px;
+
+}

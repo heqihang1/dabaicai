@@ -1,0 +1,65 @@
+@charset "utf-8";
+html,body,ul,li,ol,dd,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,image,input{
+    padding: 0px;
+    margin: 0px;    
+}
+body,h1,h2,h3,h4,h5,h6{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: tahoma, arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", 微软雅黑, 宋体, sans-serif;
+}
+dl,ul,ol{
+    list-style: none;
+}
+b,strong{
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}
+a,u{
+    text-decoration: none;
+}
+img{
+    display: block;
+    border: none;
+}
+input{
+    outline: none;
+}
+.clear-fix::after{
+    content: ".";
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+/* .clear_fix{
+    zoom: 1;
+}  */
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear-margin{
+    margin: 0px !important;
+}
+.clear-border{
+    border: none !important;
+}
+.clear-bg{
+    background: none;
+}
+.jied::after{
+    content: '';
+    width: 4px;
+    height: 4px;
+    background: #999;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left: 76px;
+}
